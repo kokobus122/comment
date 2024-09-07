@@ -5,7 +5,6 @@ import { Trash } from "lucide-react";
 import { FC } from "react";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
   DialogDescription,
   DialogFooter,
