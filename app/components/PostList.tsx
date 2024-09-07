@@ -9,9 +9,10 @@ interface PostListProps {
 const PostList: FC<PostListProps> = ({ posts }) => {
   return (
     <ul>
-      {posts && posts.map((post) => (
-        <UploadedPost key={post.id} post={post} />
-      ))}
+      {posts &&
+        posts
+          .reverse()
+          .map((post) => <UploadedPost key={post.id} post={post} />)}
     </ul>
   );
 };

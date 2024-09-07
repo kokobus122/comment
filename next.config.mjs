@@ -7,6 +7,9 @@ const nextConfig = {
             },
             {
                 hostname: "gravatar.com"
+            },
+            {
+                hostname: "lh3.googleusercontent.com"
             }
         ]
     }
